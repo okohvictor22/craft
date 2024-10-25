@@ -1,0 +1,71 @@
+.top{
+    background-color: #f6f6f6;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.empower{
+    color: #04783F;
+    font-weight: 900;
+    font-style: inter;
+    font-size: 30.4px;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+.trade{
+    margin-left: 1em;
+}
+.last{
+    margin-left: 2.5em;
+}
+.paragraph{
+    font-style: montserrat;
+    font-weight: 400;
+    font-size: 15.44px;
+    align-content: center;
+    color: #000000;
+    margin-left: 7em;
+    margin-top: 2em;
+}
+.down{
+    margin-left: 1em;
+}
+.learn{
+    color: #000000;
+    border: #000000;
+    background-color: #F9BF29;
+    width: 206.26px;
+    height: 44.6px;
+    border-radius: 72.83px;
+    top: 33px;
+    left: 35px;
+    padding-top: 8.74px;
+    padding-right: 18.21px;
+    padding-bottom: 8.74px;
+    padding-left: 18.21px;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.contact{
+    color: #04783F;
+    border: solid#04783F;
+    border-radius: 72.83px;
+    width: 115.24px;
+    height: 44.6px;
+    margin-top: 2em;
+    margin-left: 2em;
+    padding-top: 8.74px;
+    padding-bottom: 8.74px;
+    padding-right: 18.21px;
+    padding-left: 12.21px;
+}
+.more{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.group{
+    margin-top: 4em;
+    margin-left: 8em;
+}
