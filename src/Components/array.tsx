@@ -44,6 +44,7 @@ const Services=()=>
             <p className="font-bold text-[green] text-[25px]">Analysis</p>
             <p>Supporting data-driven</p>
             <p>trade policies and</p>
+
             <p>strategies.</p>
         </div>
     </div>
