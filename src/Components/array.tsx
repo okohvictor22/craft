@@ -1,5 +1,6 @@
 const Services=()=>
 <main>
+    <div className=" md:grid grid-cols-3">
     <div className="mt-[3em] ml-[1em] grid grid-cols-[1fr_4fr] text-[black] font-bold">
         <img src="/trade f.png" alt="" />
         <div>
@@ -49,7 +50,7 @@ const Services=()=>
         </div>
     </div>
 
-    <p className="text-[green] border-[2.5px] rounded-[100px] pt-[12px] pb-[12px] pl-[25px] pr-[25px] border-solid mt-[2em] text-[1] ml-[2em] border-2 border-green-700 w-[220px]">Explore Our Services</p>
-       
+    <p className="text-[green] border-[2.5px] rounded-[100px] pt-[5px] pb-[5px] pl-[25px] pr-[5px] border-solid mt-[2em] text-[1] ml-[2em] border-2 border-green-700 w-[220px] md:mt-[10em] ml-[5em] pt-[1em] pb-[1em]">Explore Our Services</p>
+    </div>
 </main>
 export default Services;

@@ -1,9 +1,11 @@
 const Footer=()=>
     <div className="bg-[black]">
+        <div className="md:grid grid-cols-2">
+        <div>
         <div className="text-[black]">
             <p>i</p> 
             <p>i</p>
-            <p>i</p>
+            
         </div>
         <div className="ml-[2em]">
             <img src="/logo-white.png" alt="" />
@@ -16,6 +18,8 @@ const Footer=()=>
             <p>Trade facilitation (CRAFT). All Rights</p>
             <p>Reserved.</p>
         </div>
+        </div>
+        <div>
         <div className="grid grid-cols-2 text-[white] mt-[2em] ml-[1em]">
             <div className="grid">
                 <p className="text-[20px] font-bold mb-[0.5em]">Links</p>
@@ -29,6 +33,8 @@ const Footer=()=>
                 <p>Documentation</p>
                 <p>Licence</p>
             </div>
+        </div>
+        </div>
         </div>
     </div>
     export default Footer;

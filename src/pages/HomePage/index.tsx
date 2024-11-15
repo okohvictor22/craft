@@ -8,7 +8,7 @@ import OurImpacts from "@/Components/our-impacts"
 import ServicesCharter from "@/Components/our-services-charter"
 import ConferenceTraining from "@/Components/comference-training"
 import Event from "@/Components/event"
-import GetInTouch from "@/Components/get-in-touch"
+import GetInTouch from "@/Components/getInTouch"
 import Footer from "@/Components/footer"
 const HomePage = () => {
     return (

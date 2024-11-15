@@ -1,5 +1,7 @@
 const GetInTouch=()=>
-    <div className="bg-[green] h-[58em]">
+    <div className="bg-[green] h-[58em] md:h-[41em]">
+        <div className="md:grid grid-cols-2 h-[38em]">
+        <div>
         <div className="mt-[4em] text-[yellow] font-black text-[30px] ml-[1.5em]">
             <p>Lets Get In Touch</p>
         </div>
@@ -26,12 +28,16 @@ const GetInTouch=()=>
            <img src="/phone.png" alt="" />
             <p>+234 810 123 4567</p>
         </div>
-        <p className="mt-[2em] font-bold text-[yellow] text-[1.3em] ml-[1.3em]">Get In Touch</p>
+        </div>
+        <div>
+        <p className="md:mt-[6em] mt-[2em] font-bold text-[yellow] text-[1.3em] ml-[1.3em]">Get In Touch</p>
         <div className="text-[gray] ">
             <p className="border rounded-[15px] bg-[white] w-[19em] h-[3em] pl-[8px] pt-[5px] ml-[0.5em] mt-[1em]">Your Name</p>
             <p className="border rounded-[15px] bg-[white] w-[19em] h-[3em] pl-[8px] pt[5px] ml-[0.5em] mt-[1em]">Your Email</p>
             <p className="border rounded-[15px] bg-[white] w-[19em] h-[6em] pl-[8px] pt[5px] ml-[0.5em] mt-[1em]">Your Message</p>
         </div>
         <p className="border-solid pt-[0.5em] pb-[0.5em] mb-[1em] rounded-[25px] border-yellow-500 mt-[2em] ml-[4em] text-[20px] border-2 w-[8em] pl-[15px] text-[yellow]">Send Message</p>
+        </div>
+        </div>
     </div>
     export default GetInTouch;
