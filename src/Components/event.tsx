@@ -1,14 +1,14 @@
 const Event=()=>
-    <div className="bg-[#F6F6F6]">
-        <div className=" text-[green] font-black text-[35px] ml-[3.2em] mt-[4em] md:ml-[20em] md:mt-[4em]">
+    <div className="bg-[#F6F6F6] h-[max-content] p-4">
+        <div className=" text-[green] font-black text-[25px] ml-[3.2em] md:ml-[9em] md:text-[3em]">
            <p>Upcoming Event</p>
       </div>
-        <div className="md:grid grid-cols-[1fr_3fr] md:ml-[27em]">
+        <div className="md:grid grid-cols-[2fr_3fr] md:ml-[20em]">
         <div>
-        <img src="/event.png" alt="" className="mt-[10em] ml-[2em]"/>
+        <img src="/event.png" alt="" className="mt-[3em] md:mt-[5em] md:ml-[2em]"/>
         </div>
         <div>
-        <div className=" mt-[3em] text-[black] font-bold text-[25px] ml-[2.5em] md:text-[20px] md:mt-[7em]">
+        <div className=" mt-[3em] text-[black] font-bold text-[25px] ml-[2.5em] md:text-[20px] md:mt-[3em]">
             <p>International Trade</p>
             <p>Facilitation Training</p>
         </div>

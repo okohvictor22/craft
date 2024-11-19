@@ -1,6 +1,6 @@
 const ConferenceTraining=()=>
-    <div className="md:grid grid-cols-[2fr_6fr]">
-        <div className="">
+    <div className="md:grid grid-cols-[2fr_2fr] p-4 h-[max-content] md:ml-[15em]">
+        <div className="md:mt-[5em] ">
             <img src="/picture.png" alt="" />
          </div>
          <div>

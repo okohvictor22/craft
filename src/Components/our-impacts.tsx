@@ -1,10 +1,10 @@
 const OurImpacts=()=> 
-    <div className="bg-[white]">
+    <div className="bg-[white] p-4 h-[max-content]">
         <div className="md:grid ">
         <div>
              <div className="text-[black] text-[13px] font-normal">
-                <p className="text-[green] font-black text-[28px] ml-[1em] mt-[1em] md:ml-[15em] text-[38px]">Our Impacts So Far</p>
-                <div className="md:ml-[25em] text-[20px]"> 
+                <p className="text-[green] font-black text-[28px] ml-[1em] md:ml-[10em] md:text-[48px]">Our Impacts So Far</p>
+                <div className="text-[1.3em] md:ml-[24em] md:text-[20px]"> 
                 <p className="ml-[2em] mt-[1em]">From groundbreaking international trade</p>
                 <p className="ml-[2em]">facilitation progremmes to providing experts</p>
                 <p className="ml-[2em]">research and consulting services, CRAFT</p>

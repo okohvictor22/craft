@@ -1,6 +1,6 @@
 const Services=()=>
 <main>
-    <div className=" md:grid grid-cols-3">
+    <div className=" md:grid grid-cols-3 p-4">
     <div className="mt-[3em] ml-[1em] grid grid-cols-[1fr_4fr] text-[black] font-bold">
         <img src="/trade f.png" alt="" />
         <div>

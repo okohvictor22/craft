@@ -1,5 +1,5 @@
 const OurMission= () => 
-   <div className="bg-[green] mt-[2em]">
+   <div className="bg-[green] p-4">
       <div className="md:grid grid-cols-2"> 
       <div>
       <div className="mr-[5em] md:mt-[4em] mr-[8em]">

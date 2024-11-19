@@ -1,12 +1,7 @@
 const Footer=()=>
-    <div className="bg-[black]">
+    <div className="bg-[black] h-[max-content] p-4">
         <div className="md:grid grid-cols-2">
         <div>
-        <div className="text-[black]">
-            <p>i</p> 
-            <p>i</p>
-            
-        </div>
         <div className="ml-[2em]">
             <img src="/logo-white.png" alt="" />
         </div>
