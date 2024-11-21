@@ -1,13 +1,16 @@
 const OurMission= () => 
-   <div className="bg-[green] p-4">
+   <div className="bg-[#04783F] p-4 relative h-[max-content]">
       <div className="md:grid grid-cols-2"> 
-      <div>
-      <div className="mr-[5em] md:mt-[4em] mr-[8em]">
-         <img src="/group2.png" alt="" />
+   
+      <div className="t-[0px] mb-[em] l-[100em] mr-[5em] mt-[1em] md:mt-[4em] md:ml-[8em]">
+         <img src="/Dotted.svg" alt="" className="z-1 absolute"/>
+         <img src="/road.png" alt="" className="z-2 absolute mt-[1em] ml-[1.5em]"/>
+         <img src="/aero.png" alt="" className="z-3 absolute ml-[13em] t-[0px] l-[100em]"/>
+         <img src="/manfig.png" alt="" className="z-4 absolute mt-[13em] ml-[11em] t-[0px] l-[100em]"/>
       </div>
-      </div>
-      <div className="md:">
-      <div className="font-black text-[yellow] mt-[2em] ml-[0.5em] text-[27px]">
+<p className="text-[#04783F]">br</p>
+      <div className="">
+      <div className="font-black text-[yellow] mt-[16em] ml-[0.5em] text-[27px] md:mt-[4em]">
          <p className="ml-[1.5em]">Our Mission For</p>
          <p>Africa's Trade Future</p>
       </div>

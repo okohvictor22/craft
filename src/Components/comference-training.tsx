@@ -1,10 +1,13 @@
 const ConferenceTraining=()=>
     <div className="md:grid grid-cols-[2fr_2fr] p-4 h-[max-content] md:ml-[15em]">
         <div className="md:mt-[5em] ">
-            <img src="/picture.png" alt="" />
+            <img src="/workshop.png" alt="" className="z-1 absolute rounded-[45px] mt-[1em] ml-[1em]"/>
+            <img src="/green.png" alt="" className="z-2 absolute ml-[-0.5em] mt-[-1em]"/>
+            <img src="/yellow round.png" alt="" className="z-3 absolute ml-[3em] mt-[-2em]"/>
          </div>
+         
          <div>
-            <div className="mt-[4em] text-[green] font-black text-[25px] ml-[2em]">
+            <div className="mt-[10em] text-[green] font-black text-[25px] ml-[2em] md:mt-[5em]">
                 <p>Workshops,</p>
                 <p>Conference & Training</p>
                 <p>Programes</p>

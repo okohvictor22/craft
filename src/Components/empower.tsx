@@ -1,6 +1,6 @@
 const Empower =() =>
 <main>
-        <div className='bg-[#f6f6f6] sm:grid md:grid-cols-[3fr_8fr] md:ml-[15em]'>
+        <div className='bg-[#f6f6f6] relative h-[max-content] p-4 sm:grid md:grid-cols-[3fr_8fr] md:ml-[15em]'>
           
                 <div>
                 <div className='font-black mt-[1em] text-[green] text-[25px] ml-[1.5em] font-weght-[900]'>
@@ -19,8 +19,10 @@ const Empower =() =>
                      <p className='text-[0.8em] border-2 border-green-900 text-[green] border-solid bg-[] rounded-[72.83px] mt-[2em] mr-[12em] ml-[1em] pt-[8.74px] pl-[18.21px] pb-[8.74px] w-[100px]'>Contact Us</p>
                 </div>
             </div> 
-            <div className='mt-[2em] ml-[9px]'>
-                 <img src="/group.png" alt="" />
+            <div className='mt-[2em] ml-[6em] '>
+                 <img src="/blue_bg.png" alt="" className="z-[1] absolute"/>
+                 <img src="/yellow round.png" alt="" className="z-[2] absolute mt-[5em] ml-[-1.5em]"/>
+                 <img src="/man_img.svg" alt="" className="z-[3] absolute mt-[7em] ml-[-5em] rounded-[20px]"/>
             </div>
           
         </div>

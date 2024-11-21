@@ -1,24 +1,23 @@
 const WeAre =() =>
 <main>
-<div className="bg-[white]">
+<div className="bg-[white] ">
     <div className="sm:grid md:grid grid-cols-2">
     <div className="hidden md:grid mt-[4em] ml-[2em]">
-        <img src="/who we are.png" alt="" />
+        <img src="/earth.png" alt="" className="z-1 absolute"/>
+        <img src="/market.png" alt="" className="z-2 absolute ml-[19em] mt-[5em]"/>
     </div>
     <div>
-    <p className="mt-[2em] text-[30.4px] text-[green] text[32px] ml-[2em] text-[32px] font-black">Who We Are</p>
+    <p className="mt-[9em] text-[30.4px] text-[green] text[32px] ml-[2em] text-[32px] font-black">Who We Are</p>
         <div className="text-[black] text-[15px] ml-[1em] mt-[1em] font-normal">
-            <p>The <span className="font-bold">Center for Research in African's Trade Facilitation(craft),</span>established</p>
-            <p>by renowed Trade Information</p>
-            <p>Marnagement Expert Dr. Aleofuna</p>
-            <p>Ekenechukwu,is at the forefront of</p>
-            <p>advancing trade facilitation accross Africa.</p>
-            <p>Registered with the Nigerian Corporate</p>
-            <p>Affairs Commission in 2022 CRAFT is</p>
-            <p>dedicated to simplifing and optimizing</p>
-            <p>trade processess in line with the Africa</p>
-            <p>Continented Free Trade Area(AFCFTA)</p>
-            <p>framework.</p>
+            <p>The <span className="font-bold">Center for Research in African's Trade Facilitation(craft),</span></p>
+            <p>established by renowed Trade Information Marnagement</p>
+            <p> Expert Dr. Aleofuna Ekenechukwu,is at the forefront of</p>
+            <p>advancing trade facilitation accross Africa. Registered</p>
+            <p> with the Nigerian Corporate Affairs Commission in </p>
+            <p>2022 CRAFT is dedicated to simplifing and optimizing</p>
+            <p>trade processess in line with the Africa Continented </p>
+            <p>Free Trade Area(AFCFTA) framework.</p>
+            <p></p>
         </div>
     </div>
     </div>
